@@ -31,7 +31,7 @@
 
 #account-overview .name {
   text-transform: uppercase;
-  color: #bada55;
+  color: red;
   font-weight: bold;
   font-size: 31px !important;
   margin-bottom: 8px;
