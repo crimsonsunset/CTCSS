@@ -1,6 +1,6 @@
 /* Base Styles */
 html, body {
-  background: transparent !important;
+  background-color: black;
   color: #fff !important;
   font-family: cardo, serif;
   font-weight: 400;
