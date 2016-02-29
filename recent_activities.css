@@ -42,6 +42,11 @@ tr td:last-child {
   -webkit-border-bottom-right-radius: 10px; }
 
 .container {
-  background-color: #959595 !important; }
+  background-color: white !important; }
+
+.ct-header-text-color {
+  text-transform: capitalize !important;
+  font-size: large !important;
+  color: black !important; }
 
 /*# sourceMappingURL=recent_activities.css.map */
