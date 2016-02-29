@@ -1,3 +1,9 @@
+@font-face {
+  font-family: TradeGothic;
+  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
+@font-face {
+  font-family: TradeGothicBold;
+  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
 .header {
   background-color: transparent !important;
   border-bottom: 0px solid #000 !important;
@@ -8,14 +14,17 @@ thead {
 
 tr {
   color: white !important;
-  background-color: black !important;
   border-top: solid #959595 3px !important;
+  font-family: TradeGothicBold;
   /* display: block;
    height: 30px;
    border-radius: 20px;
    padding-left: 10px;
    padding-right: 10px;*/
   font-weight: bold; }
+
+td {
+  background-color: black; }
 
 #activity-history table tbody:before {
   content: "" !important; }
@@ -45,8 +54,12 @@ tr td:last-child {
   background-color: white !important; }
 
 .ct-header-text-color {
+  font-family: TradeGothic;
   text-transform: capitalize !important;
   font-size: large !important;
   color: black !important; }
+
+.date {
+  padding-left: 18px !important; }
 
 /*# sourceMappingURL=recent_activities.css.map */
