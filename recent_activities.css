@@ -8,13 +8,17 @@
   background-color: transparent !important;
   border-bottom: 0px solid #000 !important;
   color: black !important; }
+  .header h3 {
+    margin: 3px 0 3px 3px;
+    padding: 20px 0px 0px 5px;
+    line-height: 15px; }
 
 thead {
   display: none !important; }
 
 tr {
   color: white !important;
-  border-top: solid #959595 3px !important;
+  border-top: solid white 3px !important;
   font-family: TradeGothicBold;
   /* display: block;
    height: 30px;
@@ -26,23 +30,24 @@ tr {
 td {
   background-color: black; }
 
-#activity-history table tbody:before {
-  content: "" !important; }
+#activity-history {
+  height: 235px; }
+  #activity-history table tbody:before {
+    content: "" !important; }
+  #activity-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -5px; }
 
 .ct-points-color {
   color: orange !important; }
 
-#activity-history table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: -11px; }
-
 tr td:first-child {
   /*     border: 10px solid orange; */
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px; }
+  -moz-border-radius-topleft: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  -webkit-border-top-left-radius: 12px;
+  -webkit-border-bottom-left-radius: 12px; }
 
 tr td:last-child {
   -moz-border-radius-topright: 10px;
@@ -61,5 +66,8 @@ tr td:last-child {
 
 .date {
   padding-left: 18px !important; }
+
+#activity-history {
+  height: 235px; }
 
 /*# sourceMappingURL=recent_activities.css.map */
