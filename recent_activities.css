@@ -30,18 +30,6 @@ tr {
 td {
   background-color: black; }
 
-#activity-history {
-  height: 235px; }
-  #activity-history table tbody:before {
-    content: "" !important; }
-  #activity-history table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: -5px; }
-
-.ct-points-color {
-  color: orange !important; }
-
 tr td:first-child {
   /*     border: 10px solid orange; */
   -moz-border-radius-topleft: 12px;
@@ -55,6 +43,18 @@ tr td:last-child {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px; }
 
+#activity-history {
+  height: 235px; }
+  #activity-history table tbody:before {
+    content: "" !important; }
+  #activity-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -5px; }
+
+.ct-points-color {
+  color: orange !important; }
+
 .container {
   background-color: white !important; }
 
@@ -66,8 +66,5 @@ tr td:last-child {
 
 .date {
   padding-left: 18px !important; }
-
-#activity-history {
-  height: 235px; }
 
 /*# sourceMappingURL=recent_activities.css.map */

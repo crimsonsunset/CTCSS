@@ -1,44 +1,57 @@
-#account-overview .header {
-  display: none !important; }
+@font-face {
+  font-family: TradeGothic;
+  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
+@font-face {
+  font-family: TradeGothicBold;
+  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
+#account-overview {
+  font-family: TradeGothic; }
+  #account-overview .header {
+    display: none !important; }
+  #account-overview .user-info {
+    width: 30% !important;
+    background: #ededed !important; }
+  #account-overview .points-info {
+    background: #ededed !important; }
+    #account-overview .points-info .fan-level .small {
+      color: black;
+      font-family: TradeGothicBold !important;
+      font-size: 20px !important;
+      line-height: 31px; }
+  #account-overview .profile-pic .bp1 {
+    -moz-border-radius: 80px !important;
+    -webkit-border-radius: 80px !important;
+    border-radius: 80px !important;
+    display: inline-block;
+    width: 130px !important;
+    height: 100% !important;
+    padding: 4px 4px 0px 4px !important; }
+  #account-overview .progress-bar-container {
+    padding: 5px !important;
+    background-color: #3d484a !important;
+    display: none; }
+  #account-overview .container {
+    width: 100%;
+    color: white;
+    background-color: #ededed; }
+  #account-overview .lifetime-points {
+    display: none !important; }
+  #account-overview .name {
+    color: red;
+    font-weight: bold;
+    font-size: 31px !important;
+    margin-bottom: 8px;
+    font-family: "TradeGothicBold", sans-serif !important;
+    text-transform: capitalize; }
+  #account-overview .logout-link-container {
+    display: none !important; }
+  #account-overview .fan-level-progress {
+    font-size: 12px;
+    padding-top: 5px;
+    display: none; }
 
 .widget .container {
   padding: 0px !important; }
-
-#account-overview .user-info {
-  width: 30% !important;
-  background: #ededed !important; }
-
-#account-overview .profile-pic .bp1 {
-  -moz-border-radius: 80px !important;
-  -webkit-border-radius: 80px !important;
-  border-radius: 80px !important;
-  display: inline-block;
-  width: 130px !important;
-  height: 100% !important;
-  padding: 4px 4px 0px 4px !important; }
-
-#account-overview .progress-bar-container {
-  padding: 5px !important;
-  background-color: #3d484a !important; }
-
-#account-overview .container {
-  width: 100%;
-  color: white;
-  background-color: black; }
-
-#account-overview .lifetime-points {
-  display: none !important; }
-
-#account-overview .name {
-  text-transform: uppercase;
-  color: red;
-  font-weight: bold;
-  font-size: 31px !important;
-  margin-bottom: 8px;
-  font-family: "TradeGothicBold", sans-serif !important; }
-
-#account-overview .logout-link-container {
-  display: none !important; }
 
 @media only screen and (min-width: 200px) {
   #account-overview .profile-pic.bp1 {
