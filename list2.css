@@ -1,3 +1,22 @@
+ul {
+  width: 32em;
+  /* room for 3 columns */
+  border: 1px solid black; }
 
+ul li {
+  float: left;
+  border: 1px solid red;
+  width: 100px;
+  /* accommodate the widest item */ }
+
+/* stop the floating after the list */
+br {
+  clear: left; }
+
+@media only screen and (max-width: 768px) {
+  ul {
+    width: 15em;
+    /* room for 3 columns */
+    border: 1px solid black; } }
 
 /*# sourceMappingURL=list2.css.map */
