@@ -11,13 +11,18 @@
   #account-overview .user-info {
     width: 30% !important;
     background: #ededed !important; }
+  #account-overview .points {
+    margin-top: 50px;
+    color: black !important; }
   #account-overview .points-info {
     background: #ededed !important; }
-    #account-overview .points-info .fan-level .small {
-      color: black;
-      font-family: TradeGothicBold !important;
-      font-size: 20px !important;
-      line-height: 31px; }
+    #account-overview .points-info .fan-level {
+      margin-top: -84px; }
+      #account-overview .points-info .fan-level .small {
+        color: black;
+        font-family: TradeGothicBold !important;
+        font-size: 20px !important;
+        line-height: 31px; }
   #account-overview .profile-pic .bp1 {
     -moz-border-radius: 80px !important;
     -webkit-border-radius: 80px !important;
@@ -37,7 +42,7 @@
   #account-overview .lifetime-points {
     display: none !important; }
   #account-overview .name {
-    color: red;
+    color: black;
     font-weight: bold;
     font-size: 31px !important;
     margin-bottom: 8px;
