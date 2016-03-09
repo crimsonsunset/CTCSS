@@ -4,6 +4,7 @@ property of Monotype Imaging and/or its suppliers. You may not attempt to copy, 
 redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
 Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f0e51586-bedf-43ae-9597-7f536f69fdf9");
 @font-face {
   font-family: TradeGothic;
   src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
@@ -11,13 +12,11 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
   font-family: TradeGothicBold;
   src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
 @font-face {
-  font-family: "Avenir Demi";
-  src: url("font/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix");
-  src: url("font/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix") format("eot"), url("font/249228f0-61ac-40cc-a5a5-5609c9816e3f.woff2") format("woff2"), url("font/efba18ed-80cc-49c4-997a-fbb140739d19.woff") format("woff"), url("font/750a20ec-9242-42a8-b3bd-c4dcec552196.ttf") format("truetype"), url("font/9505c912-495c-462c-899a-e61574ee9559.svg#9505c912-495c-462c-899a-e61574ee9559") format("svg"); }
+  font-family: "Avenir Next LT W04 Demi1437516";
+  src: url("font/750a20ec-9242-42a8-b3bd-c4dcec552196.ttf"); }
 @font-face {
-  font-family: "Avenir Italic";
-  src: url("font/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
-  src: url("font/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("font/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("font/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("font/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("font/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
+  font-family: "AvenirNextLTW01-BoldIta";
+  src: url("font/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf"); }
 html {
   background-color: black; }
 
@@ -101,7 +100,7 @@ br {
       border: 2px solid red;
       margin-bottom: 10px;
       font-size: 14px;
-      font-family: "Avenir Demi";
+      font-family: "Avenir Next LT W04 Demi1437516";
       color: black !important;
       display: -webkit-box;
       -webkit-line-clamp: 2;
