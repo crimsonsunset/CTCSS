@@ -1,9 +1,18 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f0e51586-bedf-43ae-9597-7f536f69fdf9");
 @font-face {
-  font-family: TradeGothic;
-  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
+  font-family: "Avenir Demi";
+  src: url("Fonts/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix");
+  src: url("Fonts/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix") format("eot"), url("Fonts/249228f0-61ac-40cc-a5a5-5609c9816e3f.woff2") format("woff2"), url("Fonts/efba18ed-80cc-49c4-997a-fbb140739d19.woff") format("woff"), url("Fonts/750a20ec-9242-42a8-b3bd-c4dcec552196.ttf") format("truetype"), url("Fonts/9505c912-495c-462c-899a-e61574ee9559.svg#9505c912-495c-462c-899a-e61574ee9559") format("svg"); }
 @font-face {
-  font-family: TradeGothicBold;
-  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
+  font-family: "Avenir Italic";
+  src: url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
+  src: url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("Fonts/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("Fonts/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("Fonts/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("Fonts/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
 html {
   background-color: black; }
 
@@ -29,7 +38,7 @@ br {
   background-color: black !important; }
 
 #activity-list {
-  font-family: TradeGothicBold !important;
+  font-family: "Avenir Demi" !important;
   color: white !important;
   /* styles for '...' */ }
   #activity-list .activity {
@@ -55,6 +64,11 @@ br {
       display: none !important; }
     #activity-list .info-container .title {
       color: black !important;
+      line-height: 20px;
+      border: 2px solid red;
+      margin-right: 10px !important;
+      font-size: 16px;
+      font-family: "Avenir Demi";
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
@@ -76,6 +90,7 @@ br {
       display: none; }
   #activity-list .point-value {
     margin-left: 12px;
+    font-family: "Avenir Italic";
     color: #f79c1d !important;
     font-size: 24px !important; }
     #activity-list .point-value.completed:before {
