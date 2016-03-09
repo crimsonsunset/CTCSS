@@ -1,0 +1,163 @@
+
+
+#reward-list .rewards {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reward-list .rewards:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#reward-list .rewards .reward {
+  border: 1px solid #ececec;
+}
+
+@media (min-width: 400px) {
+  #reward-list .rewards .reward {
+    width: 50%;
+    float: left;
+  }
+
+  #reward-list .rewards .reward:nth-child(2n+1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+
+  #reward-list .rewards .reward:nth-child(2n+2) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none;
+  };
+}
+
+@media (min-width: 600px) {
+  #reward-list .rewards .reward {
+    width: 33.33333%;
+    float: left;
+  }
+
+  #reward-list .rewards .reward:nth-child(3n+1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+
+  #reward-list .rewards .reward:nth-child(3n+2) {
+    margin-left: 33.33333%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  #reward-list .rewards .reward:nth-child(3n+3) {
+    margin-left: 66.66667%;
+    margin-right: -100%;
+    clear: none;
+  };
+}
+
+@media (min-width: 800px) {
+  #reward-list .rewards .reward {
+    width: 25%;
+    float: left;
+  }
+
+  #reward-list .rewards .reward:nth-child(4n+1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+
+  #reward-list .rewards .reward:nth-child(4n+2) {
+    margin-left: 25%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  #reward-list .rewards .reward:nth-child(4n+3) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  #reward-list .rewards .reward:nth-child(4n+4) {
+    margin-left: 75%;
+    margin-right: -100%;
+    clear: none;
+  };
+}
+
+#reward-list .rewards .reward img {
+  cursor: pointer;
+  width: 100%;
+}
+
+#reward-list .rewards .reward .content {
+  padding: 5px;
+}
+
+#reward-list .rewards .reward .content .title {
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#reward-list .rewards .reward .content .row {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 4px;
+  height: 15px;
+}
+
+#reward-list .rewards .reward .content .row p {
+  margin: 0;
+}
+
+#reward-list .rewards .reward .content .row .locked,#reward-list .rewards .reward .content .row .points {
+  float: left;
+}
+
+#reward-list .rewards .reward .content .row .ends,#reward-list .rewards .reward .content .row .quantity {
+  float: right;
+}
+
+#reward-list .rewards .reward .content .row .locked {
+  font-weight: bold;
+}
+
+#reward-list .rewards .reward .content .row .locked i {
+  margin-right: 5px;
+}
+
+#reward-list .rewards .reward .content .row .ends p {
+  color: #b8b8b8;
+  font-style: italic;
+}
+
+#reward-list .rewards .reward .content .row .points p {
+  text-transform: capitalize;
+  color: #c22034;
+}
+
+#reward-list .rewards .reward .content .row .quantity {
+  text-transform: uppercase;
+}
+
+#reward-list .rewards .reward .content .row .quantity p.sold-out {
+  font-weight: bold;
+}
+
+#reward-list .rewards .reward .disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: .3;
+}

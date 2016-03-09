@@ -1,12 +1,74 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
 @font-face {
   font-family: TradeGothic;
   src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
 @font-face {
   font-family: TradeGothicBold;
   src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
+@font-face {
+  font-family: "Avenir Demi";
+  src: url("font/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix");
+  src: url("font/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix") format("eot"), url("font/249228f0-61ac-40cc-a5a5-5609c9816e3f.woff2") format("woff2"), url("font/efba18ed-80cc-49c4-997a-fbb140739d19.woff") format("woff"), url("font/750a20ec-9242-42a8-b3bd-c4dcec552196.ttf") format("truetype"), url("font/9505c912-495c-462c-899a-e61574ee9559.svg#9505c912-495c-462c-899a-e61574ee9559") format("svg"); }
+@font-face {
+  font-family: "Avenir Italic";
+  src: url("font/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
+  src: url("font/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("font/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("font/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("font/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("font/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
 html {
   background-color: black; }
 
+@media (min-width: 400px) {
+  #reward-list .rewards .reward {
+    width: 300px !important;
+    float: left; }
+
+  #reward-list .rewards .reward:nth-child(2n+1) {
+    margin: 10px 4px 0px 4px !important;
+    clear: both; }
+
+  #reward-list .rewards .reward:nth-child(2n+2) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; } }
+@media (min-width: 600px) {
+  #reward-list .rewards .reward {
+    width: 300px !important;
+    float: left; }
+
+  #reward-list .rewards .reward:nth-child(3n+1) {
+    margin: 10px 4px 0px 4px !important;
+    clear: inherit !important; }
+
+  #reward-list .rewards .reward:nth-child(3n+2) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; }
+
+  #reward-list .rewards .reward:nth-child(3n+3) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; } }
+@media (min-width: 800px) {
+  #reward-list .rewards .reward {
+    width: 300px !important;
+    float: left; }
+
+  #reward-list .rewards .reward:nth-child(4n+1) {
+    margin: 10px 4px 0px 4px !important;
+    clear: both; }
+
+  #reward-list .rewards .reward:nth-child(4n+2) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; }
+
+  #reward-list .rewards .reward:nth-child(4n+3) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; }
+
+  #reward-list .rewards .reward:nth-child(4n+4) {
+    margin: 10px 4px 0px 4px !important;
+    clear: none; } }
 ul {
   width: 100%;
   padding-left: 4px;
@@ -25,41 +87,60 @@ br {
 .widget .header {
   display: none; }
 .widget .container {
-  padding: 0px !important;
+  padding: 0px 0px 0px 5px !important;
   background-color: black !important; }
 
-#activity-list {
+#reward-list {
   font-family: TradeGothicBold !important;
   color: white !important;
   /* styles for '...' */ }
-  #activity-list .activity {
-    padding: 0px !important;
-    height: 395px;
-    background-color: white !important; }
-  #activity-list .image-container {
-    background-color: transparent !important;
-    border-radius: 0px !important;
-    width: 100%;
-    height: 300px; }
-    #activity-list .image-container img {
-      padding: 0px !important;
-      width: 100% !important;
-      height: 300px !important; }
-  #activity-list .info-container {
-    margin-top: 2px !important;
-    width: 300px;
-    max-width: 300px;
-    height: 60px;
-    font-size: 16px !important; }
-    #activity-list .info-container .description {
-      display: none !important; }
-    #activity-list .info-container .title {
+  #reward-list .rewards {
+    width: 100% !important; }
+    #reward-list .rewards .reward .content .title {
+      height: 35px;
+      border: 2px solid red;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-family: "Avenir Demi";
       color: black !important;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden; }
-  #activity-list .points-container {
+  #reward-list .reward {
+    padding: 0px !important;
+    padding-left: 4px;
+    height: 395px;
+    background-color: white !important; }
+  #reward-list .image-container {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    width: 100%;
+    height: 300px; }
+    #reward-list .image-container img {
+      padding: 0px !important;
+      width: 100% !important;
+      height: 300px !important; }
+  #reward-list .info-container {
+    margin-top: 2px !important;
+    width: 300px;
+    max-width: 300px;
+    height: 60px;
+    font-size: 16px !important; }
+    #reward-list .info-container .description {
+      display: none !important; }
+    #reward-list .info-container .title {
+      height: 35px;
+      border: 2px solid red;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-family: "Avenir Demi";
+      color: black !important;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+  #reward-list .points-container {
     max-width: 100%;
     width: 300px;
     margin-left: 5px;
@@ -67,26 +148,26 @@ br {
     line-height: 24px;
     text-align: left;
     float: right; }
-    #activity-list .points-container .points_without-bonus {
+    #reward-list .points-container .points_without-bonus {
       color: #b0b0b0;
       text-decoration: line-through;
       font-size: 14px;
       margin-top: -30px;
       margin-bottom: -4px;
       display: none; }
-  #activity-list .point-value {
+  #reward-list .point-value {
     margin-left: 12px;
     color: #f79c1d !important;
     font-size: 24px !important; }
-    #activity-list .point-value.completed:before {
-      content: url(https://placeholdit.imgix.net/~text?txtsize=44&w=300&h=300&bg=000000&txt=completedactivity);
+    #reward-list .point-value.completed:before {
+      content: url(https://placeholdit.imgix.net/~text?txtsize=44&w=300&h=300&bg=000000&txt=completedreward);
       position: relative;
       top: -365px;
       left: -12px;
       opacity: 0.7; }
-    #activity-list .point-value.completed .fa-check-circle {
+    #reward-list .point-value.completed .fa-check-circle {
       display: none; }
-  #activity-list .lock-info {
+  #reward-list .lock-info {
     position: relative;
     top: -395px;
     left: 0px;
@@ -97,19 +178,19 @@ br {
     font-family: TradeGothicBold;
     background-color: black;
     opacity: .7; }
-    #activity-list .lock-info span {
+    #reward-list .lock-info span {
       font-size: 24px; }
-    #activity-list .lock-info .fa-lock {
+    #reward-list .lock-info .fa-lock {
       font-size: 65px;
       width: 300px;
       margin-bottom: 40px; }
 
 /*# sourceMappingURL=list2.css.map */
 @media only screen and (max-width: 936px) {
-  ul {
-    width: 628px; } }
+  #reward-list .rewards {
+    width: 628px !important; } }
 @media only screen and (max-width: 634px) {
-  ul {
-    width: 320px; } }
+  #reward-list .rewards {
+    width: 320px !important; } }
 
 /*# sourceMappingURL=rewards2.css.map */
