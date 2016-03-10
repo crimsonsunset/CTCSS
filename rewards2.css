@@ -23,7 +23,7 @@ html {
 
   #reward-list .rewards .reward:nth-child(2n+1) {
     margin: 10px 4px 0px 4px !important;
-    clear: both; }
+    clear: none; }
 
   #reward-list .rewards .reward:nth-child(2n+2) {
     margin: 10px 4px 0px 4px !important;
@@ -51,7 +51,7 @@ html {
 
   #reward-list .rewards .reward:nth-child(4n+1) {
     margin: 10px 4px 0px 4px !important;
-    clear: both; }
+    clear: none; }
 
   #reward-list .rewards .reward:nth-child(4n+2) {
     margin: 10px 4px 0px 4px !important;
