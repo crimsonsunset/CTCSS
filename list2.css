@@ -65,9 +65,8 @@ br {
     #activity-list .info-container .title {
       color: black !important;
       line-height: 20px;
-      border: 2px solid red;
       margin-right: 10px !important;
-      font-size: 16px;
+      font-size: 18px;
       font-family: "Avenir Demi";
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -91,10 +90,11 @@ br {
   #activity-list .point-value {
     margin-left: 12px;
     font-family: "Avenir Italic";
+    text-transform: uppercase;
     color: #f79c1d !important;
     font-size: 24px !important; }
     #activity-list .point-value.completed:before {
-      content: url(https://placeholdit.imgix.net/~text?txtsize=44&w=300&h=300&bg=000000&txt=completedactivity);
+      content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Complete-Transparent.png);
       position: relative;
       top: -365px;
       left: -12px;
@@ -108,8 +108,8 @@ br {
     width: 300px;
     height: 300px;
     text-align: center;
+    font-family: "Avenir Demi";
     padding-top: 50px;
-    font-family: TradeGothicBold;
     background-color: black;
     opacity: .7; }
     #activity-list .lock-info span {
