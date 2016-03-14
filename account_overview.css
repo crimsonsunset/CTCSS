@@ -1,53 +1,94 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f0e51586-bedf-43ae-9597-7f536f69fdf9");
 @font-face {
-  font-family: TradeGothic;
-  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegot-webfont.ttf); }
+  font-family: "Avenir Demi";
+  src: url("Fonts/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix");
+  src: url("Fonts/47d79f32-82c5-4a74-9646-5150297aabc1.eot?#iefix") format("eot"), url("Fonts/249228f0-61ac-40cc-a5a5-5609c9816e3f.woff2") format("woff2"), url("Fonts/efba18ed-80cc-49c4-997a-fbb140739d19.woff") format("woff"), url("Fonts/750a20ec-9242-42a8-b3bd-c4dcec552196.ttf") format("truetype"), url("Fonts/9505c912-495c-462c-899a-e61574ee9559.svg#9505c912-495c-462c-899a-e61574ee9559") format("svg"); }
 @font-face {
-  font-family: TradeGothicBold;
-  src: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/font/tradegotbol-webfont.ttf); }
+  font-family: "Avenir Italic";
+  src: url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
+  src: url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("Fonts/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("Fonts/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("Fonts/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("Fonts/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
+.header {
+  background-color: transparent !important;
+  border-bottom: 0px solid #000 !important;
+  color: black !important; }
+
+.header h3 {
+  margin: 3px 0 3px 3px;
+  font-size: 23px !important;
+  text-transform: uppercase !Important;
+  color: #fff !important;
+  padding: 5px; }
+
 #account-overview {
-  font-family: TradeGothic; }
+  height: 235px;
+  border: 1px solid transparent;
+  background-color: rgba(25, 25, 25, 0.3);
+  font-family: "Avenir Demi"; }
+  #account-overview .user-container {
+    display: block;
+    padding-right: 0px !important; }
   #account-overview .header {
     display: none !important; }
   #account-overview .user-info {
     width: 30% !important;
-    background: #ededed !important; }
+    background: #ededed !important;
+    display: none; }
   #account-overview .points {
     margin-top: 50px;
-    color: black !important; }
+    color: black !important;
+    text-align: center;
+    display: none; }
   #account-overview .points-info {
-    background: #ededed !important; }
+    display: block;
+    width: 100% !important; }
     #account-overview .points-info .fan-level {
-      margin-top: -84px; }
+      margin-top: -84px;
+      display: none; }
       #account-overview .points-info .fan-level .small {
         color: black;
-        font-family: TradeGothicBold !important;
         font-size: 20px !important;
-        line-height: 31px; }
+        line-height: 31px;
+        display: none; }
   #account-overview .profile-pic .bp1 {
     -moz-border-radius: 80px !important;
     -webkit-border-radius: 80px !important;
     border-radius: 80px !important;
-    display: inline-block;
     width: 130px !important;
     height: 100% !important;
-    padding: 4px 4px 0px 4px !important; }
+    padding: 4px 4px 0px 4px !important;
+    display: none; }
   #account-overview .progress-bar-container {
     padding: 5px !important;
-    background-color: #3d484a !important;
     display: none; }
   #account-overview .container {
     width: 100%;
-    color: white;
-    background-color: #ededed; }
+    color: white; }
   #account-overview .lifetime-points {
     display: none !important; }
+  #account-overview .redeemable-points {
+    font-size: 28px;
+    border: 1px solid blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Avenir Italic";
+    margin-left: -3px;
+    width: 100%;
+    display: block; }
   #account-overview .name {
     color: black;
     font-weight: bold;
     font-size: 31px !important;
-    margin-bottom: 8px;
-    font-family: "TradeGothicBold", sans-serif !important;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 85px; }
   #account-overview .logout-link-container {
     display: none !important; }
   #account-overview .fan-level-progress {
