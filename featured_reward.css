@@ -53,7 +53,8 @@ html {
     margin: 10px 4px 0px 4px !important;
     clear: none;
     width: 99% !important;
-    border: 1px solid lime; }
+    background-color: black !important;
+    border: 0px; }
     #reward-list .rewards .reward:nth-child(4n+1) img {
       width: 300px;
       height: 300px;
@@ -61,18 +62,27 @@ html {
     #reward-list .rewards .reward:nth-child(4n+1) .content {
       margin-top: -300px;
       margin-left: 310px; }
+      #reward-list .rewards .reward:nth-child(4n+1) .content .row .points {
+        display: none; }
       #reward-list .rewards .reward:nth-child(4n+1) .content .title {
-        height: 200px;
+        color: white !important;
+        width: 92%;
+        height: 119px;
+        display: table;
         margin-bottom: 4px;
-        font-size: 23px;
+        font-size: 30px;
         margin-left: 10px !important;
         font-family: "Avenir Demi";
-        color: black !important; }
+        border: 1px solid; }
         #reward-list .rewards .reward:nth-child(4n+1) .content .title:after {
-          border: 2px solid orange;
           height: 100px;
           width: 100px;
-          content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png); }
+          content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/action_button.png);
+          position: relative;
+          margin-left: -373px;
+          margin-top: 79px;
+          top: 80px;
+          left: 20px; }
 
   #reward-list .rewards .reward:nth-child(4n+2) {
     margin: 10px 4px 0px 4px !important;
@@ -128,13 +138,12 @@ br {
         height: inherit !important;
         overflow: visible !important; }
         #reward-list .rewards .reward .content .row .locked {
-          border: 1px solid purple;
           margin-left: -7px; }
           #reward-list .rewards .reward .content .row .locked:before {
             content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png);
             position: absolute;
-            margin-left: 5px;
-            margin-top: -353px;
+            margin-left: -303px;
+            margin-top: -84px;
             opacity: 0.7; }
         #reward-list .rewards .reward .content .row div p {
           color: black;
@@ -149,8 +158,8 @@ br {
         #reward-list .rewards .reward .content .row .quantity p.sold-out:before {
           content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png);
           position: absolute;
-          margin-left: -299px;
-          margin-top: -354px;
+          margin-left: -305px;
+          margin-top: -309px;
           opacity: 0.8; }
   #reward-list .reward {
     padding: 0px !important;
