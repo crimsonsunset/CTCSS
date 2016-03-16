@@ -55,6 +55,9 @@ tr td:last-child {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px; }
 
+#activity-history table th:last-child, #activity-history table td:last-child {
+  height: 26px !important; }
+
 #activity-history {
   height: 235px;
   background-color: rgba(25, 25, 25, 0.5); }

@@ -15,4 +15,30 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 body {
   background-color: transparent !important; }
 
+.widget .container {
+  padding: 10px 10px 10px 10px; }
+.widget .header {
+  display: none !important; }
+
+#social-connect-widget .social-net-container {
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: "Avenir Demi"; }
+  #social-connect-widget .social-net-container .social-net-name {
+    font-size: 16px; }
+#social-connect-widget button.connect {
+  font-family: "Avenir Demi";
+  color: black !important;
+  background-color: white !important; }
+#social-connect-widget .notification-container {
+  margin-bottom: -20px; }
+#social-connect-widget .point-value {
+  margin-right: 10px !important;
+  font-family: "Avenir Italic";
+  font-size: 16px; }
+
+.fa-check-circle:before {
+  content: "\f00c"; }
+
 /*# sourceMappingURL=social_connect.css.map */
