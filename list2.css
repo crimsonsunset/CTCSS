@@ -16,7 +16,7 @@ html {
   background-color: black; }
 
 ul {
-  width: 930px;
+  width: 930px !important;
   padding-left: 4px;
   margin: 0 auto !important; }
 
