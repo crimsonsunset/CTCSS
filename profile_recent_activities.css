@@ -24,8 +24,7 @@ body {
     font-size: 23px !important;
     text-transform: uppercase !Important;
     color: #fff !important;
-    padding: 5px;
-    display: none; }
+    padding: 5px; }
 
 thead {
   display: none !important; }
@@ -59,39 +58,39 @@ tr td:last-child {
 span, p {
   white-space: nowrap !important; }
 
-#reward-history table th:last-child, #reward-history table td:last-child {
+#activity-history table th:last-child, #activity-history table td:last-child {
   height: 26px !important; }
 
-#reward-history {
+#activity-history {
   height: 235px;
   background-color: rgba(25, 25, 25, 0.5); }
-  #reward-history table tbody:before {
+  #activity-history table tbody:before {
     content: "" !important; }
-  #reward-history table {
+  #activity-history table {
     width: 98%;
     margin-top: -25px;
     overflow: hidden;
     position: relative;
     border-collapse: separate;
     border-spacing: 0px 6px; }
-    #reward-history table td {
+    #activity-history table td {
       vertical-align: top;
       line-height: 18px;
       padding: 0px 20px;
       margin: 0px !important;
       padding-top: 4px;
       padding-bottom: 4px; }
-      #reward-history table td.points {
+      #activity-history table td.points {
         font-family: "Avenir Italic";
         text-transform: uppercase; }
-      #reward-history table td .title {
+      #activity-history table td .title {
         margin-left: -30px; }
 
 .ct-points-color {
   color: orange !important; }
 
 .container {
-  padding: 20px 10px 10px 10px !important;
+  padding: 60px 10px 10px 10px;
   height: 202px;
   overflow: hidden; }
 
@@ -104,4 +103,4 @@ span, p {
 .date {
   padding-left: 18px !important; }
 
-/*# sourceMappingURL=profile_recents.css.map */
+/*# sourceMappingURL=profile_recent_activities.css.map */
