@@ -18,7 +18,8 @@ body {
 .header {
   background-color: transparent !important;
   border-bottom: 0px solid #000 !important;
-  color: black !important; }
+  color: black !important;
+  display: none !important; }
   .header h3 {
     margin: 3px 0 3px 3px;
     font-size: 23px !important;
@@ -90,7 +91,7 @@ span, p {
   color: orange !important; }
 
 .container {
-  padding: 60px 10px 10px 10px;
+  padding: 20px 10px 10px 10px !important;
   height: 202px;
   overflow: hidden; }
 
