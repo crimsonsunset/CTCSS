@@ -121,9 +121,9 @@ br {
 /*# sourceMappingURL=list2.css.map */
 @media only screen and (max-width: 936px) {
   ul {
-    width: 628px; } }
+    width: 628px !important; } }
 @media only screen and (max-width: 634px) {
   ul {
-    width: 320px; } }
+    width: 320px !important; } }
 
 /*# sourceMappingURL=list2.css.map */
