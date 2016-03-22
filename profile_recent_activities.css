@@ -18,7 +18,7 @@ body {
 .header {
   background-color: transparent !important;
   border-bottom: 0px solid #000 !important;
-  color: black !important;
+  color: #171717 !important;
   display: none !important; }
   .header h3 {
     margin: 3px 0 3px 3px;
@@ -41,7 +41,7 @@ tr {
   font-weight: bold; }
 
 td {
-  background-color: black; }
+  background-color: #171717; }
 
 tr td:first-child {
   /*     border: 10px solid orange; */

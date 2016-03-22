@@ -18,9 +18,9 @@ body {
 .header {
   background-color: transparent !important;
   border-bottom: 0px solid #000 !important;
-  color: black !important; }
+  color: #171717 !important; }
   .header h3 {
-    margin: 3px 0 3px 3px;
+    margin: 9px 0 3px 3px !important;
     font-size: 23px !important;
     text-transform: uppercase !Important;
     color: #fff !important;
@@ -40,7 +40,7 @@ tr {
   font-weight: bold; }
 
 td {
-  background-color: black; }
+  background-color: #171717; }
 
 tr td:first-child {
   /*     border: 10px solid orange; */
@@ -63,7 +63,7 @@ span, p {
 
 #activity-history {
   height: 235px;
-  background-color: rgba(25, 25, 25, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5); }
   #activity-history table tbody:before {
     content: "" !important; }
   #activity-history table {

@@ -8,7 +8,7 @@
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix") format("eot"), url("Fonts/40341557-de09-46fe-a2df-9ca52c67f017.woff2") format("woff2"), url("Fonts/e3efde60-79f0-4ad5-92b0-88c37631738e.woff") format("woff"), url("Fonts/1fd2cf5d-f27c-431e-aac2-fd959b2f9ca4.ttf") format("truetype"), url("Fonts/7ef1049b-c721-43a7-be32-fad3c24a248d.svg#7ef1049b-c721-43a7-be32-fad3c24a248d") format("svg"); }
 /* Base Styles */
 html, body {
-  background-color: black !important;
+  background-color: #171717 !important;
   color: #fff !important;
   font-family: cardo, serif;
   font-weight: 400;
