@@ -78,7 +78,7 @@ span, p {
     display: none !important; }
   #account-overview .redeemable-points {
     font-size: 28px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-align: center;
     font-family: "Avenir Italic";
     margin-left: -3px;

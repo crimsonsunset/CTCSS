@@ -83,7 +83,9 @@ span, p {
       padding-bottom: 4px; }
       #activity-history table td.points {
         font-family: "Avenir Italic";
-        text-transform: uppercase; }
+        text-transform: lowercase; }
+        #activity-history table td.points span {
+          font-size: 16px !important; }
       #activity-history table td .title {
         margin-left: -30px; }
 

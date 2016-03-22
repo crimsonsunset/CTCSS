@@ -136,7 +136,7 @@ html {
           #reward-list .rewards .reward .content .row .points p {
             font-size: 24px !important;
             font-family: "Avenir Italic";
-            text-transform: uppercase;
+            text-transform: lowercase;
             margin-left: 10px; }
         #reward-list .rewards .reward .content .row .quantity p.sold-out:before {
           content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png);
