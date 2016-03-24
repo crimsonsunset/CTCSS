@@ -41,7 +41,7 @@ tr {
   font-weight: bold; }
 
 td {
-  background-color: #171717; }
+  background-color: black; }
 
 tr td:first-child {
   /*     border: 10px solid orange; */
@@ -93,7 +93,7 @@ span, p {
 .container {
   padding: 20px 10px 10px 10px !important;
   height: 202px;
-  overflow: hidden; }
+  overflow: auto; }
 
 .ct-header-text-color {
   font-family: "Avenir Italic";
