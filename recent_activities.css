@@ -20,11 +20,12 @@ body {
   border-bottom: 0px solid #000 !important;
   color: #171717 !important; }
   .header h3 {
-    margin: 9px 0 3px 3px !important;
-    font-size: 23px !important;
-    text-transform: uppercase !Important;
-    color: #fff !important;
-    padding: 5px; }
+    margin: -7px 0 0px -10px;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 2px 1px #1c1c1c; }
 
 thead {
   display: none !important; }
@@ -39,60 +40,58 @@ tr {
    padding-right: 10px;*/
   font-weight: bold; }
 
-td {
-  background-color: #171717; }
-
-tr td:first-child {
-  /*     border: 10px solid orange; */
-  -moz-border-radius-topleft: 12px;
-  -moz-border-radius-bottomleft: 12px;
-  -webkit-border-top-left-radius: 12px;
-  -webkit-border-bottom-left-radius: 12px; }
-
-tr td:last-child {
-  -moz-border-radius-topright: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px; }
+.widget .header {
+  display: block;
+  padding: 4px;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-bottom: -16px;
+  height: 22px; }
 
 span, p {
-  white-space: nowrap !important; }
+  white-space: nowrap !important;
+  overflow: hidden;
+  width: 110px;
+  text-overflow: ellipsis; }
 
 #activity-history table th:last-child, #activity-history table td:last-child {
   height: 26px !important; }
 
 #activity-history {
-  height: 235px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  height: 120px;
+  width: 265px;
+  overflow: hidden; }
   #activity-history table tbody:before {
     content: "" !important; }
   #activity-history table {
     width: 98%;
-    margin-top: -25px;
     overflow: hidden;
     position: relative;
-    border-collapse: separate;
-    border-spacing: 0px 6px; }
+    border-spacing: 0px 6px;
+    margin-top: 21px; }
     #activity-history table td {
       vertical-align: top;
-      line-height: 18px;
-      padding: 0px 20px;
-      margin: 0px !important;
-      padding-top: 4px;
-      padding-bottom: 4px; }
+      padding: 0px !important;
+      height: 0px;
+      line-height: 14px;
+      margin-bottom: -7px; }
       #activity-history table td.points {
         font-family: "Avenir Italic";
         text-transform: lowercase; }
         #activity-history table td.points span {
           font-size: 16px !important; }
       #activity-history table td .title {
-        margin-left: -30px; }
+        margin-left: 8px; }
 
 .ct-points-color {
   color: orange !important; }
 
 .container {
-  padding: 60px 10px 10px 10px;
+  padding: 0px !important;
   height: 202px;
   overflow: hidden; }
 

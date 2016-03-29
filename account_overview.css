@@ -31,89 +31,104 @@ span, p {
   font-size: inherit; }
 
 #account-overview {
-  height: 235px;
-  border: 1px solid transparent;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: "Avenir Demi"; }
+  width: 385px !important;
+  height: 141px;
+  font-family: "Avenir Demi";
+  border: 1px solid transparent; }
   #account-overview .user-container {
     display: block;
     padding-right: 0px !important; }
   #account-overview .header {
     display: none !important; }
   #account-overview .user-info {
-    width: 30% !important;
-    background: #ededed !important;
-    display: none; }
+    width: 66px !important;
+    display: block;
+    float: left;
+    margin-right: 19px; }
   #account-overview .points {
     margin-top: 50px;
     color: black !important;
-    text-align: center;
     display: none; }
   #account-overview .points-info {
     display: block;
-    width: 100% !important; }
+    width: 100% !important;
+    margin-top: 17px; }
     #account-overview .points-info .fan-level {
-      margin-top: -84px;
-      display: none; }
+      margin-top: -84px; }
+      #account-overview .points-info .fan-level .icon {
+        display: none; }
       #account-overview .points-info .fan-level .small {
-        color: black;
+        color: white;
+        font-family: "Avenir Italic";
         font-size: 20px !important;
         line-height: 31px;
-        display: none; }
-  #account-overview .profile-pic .bp1 {
-    -moz-border-radius: 80px !important;
-    -webkit-border-radius: 80px !important;
-    border-radius: 80px !important;
-    width: 130px !important;
-    height: 100% !important;
-    padding: 4px 4px 0px 4px !important;
-    display: none; }
+        margin-top: -83px; }
+  #account-overview .profile-pic {
+    -moz-border-radius: 38px;
+    -webkit-border-radius: 38px;
+    border-radius: 38px;
+    height: 76px;
+    width: 76px;
+    display: block;
+    margin-top: -17px; }
+    #account-overview .profile-pic.bp1 {
+      -moz-border-radius: 80px !important;
+      -webkit-border-radius: 80px !important;
+      border-radius: 80px !important;
+      width: 130px !important;
+      height: 100% !important;
+      padding: 4px 4px 0px 4px !important;
+      display: none; }
   #account-overview .progress-bar-container {
     padding: 5px !important;
-    display: none; }
+    margin-top: 56px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 33px; }
+  #account-overview .ct-progress-bar .bar > span {
+    font-size: 39px;
+    color: #ff9900;
+    text-shadow: 0px 0px #ff9900; }
+  #account-overview .ct-points-color {
+    color: white !important; }
+  #account-overview .ct-progress-bar {
+    background-color: black !important; }
   #account-overview .container {
     width: 100%;
-    color: white; }
+    color: transparent !important;
+    text-shadow: 2px 1px #1c1c1c; }
   #account-overview .lifetime-points {
     display: none !important; }
   #account-overview .redeemable-points {
     font-size: 28px;
     text-transform: lowercase;
-    text-align: center;
     font-family: "Avenir Italic";
+    color: orange !important;
     margin-left: -3px;
+    margin-top: -8px;
     width: 100%;
     display: block; }
   #account-overview .name {
     color: white;
     font-weight: bold;
+    font-family: 'Avenir Italic';
     font-size: 31px !important;
     text-transform: capitalize;
-    text-align: center;
     margin: 0 auto;
-    width: 100%;
-    margin-top: 85px; }
+    width: 100%; }
   #account-overview .logout-link-container {
     display: none !important; }
   #account-overview .fan-level-progress {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 5px;
-    display: none; }
+    margin-top: -5px;
+    text-align: right;
+    float: right;
+    text-transform: uppercase !important;
+    width: 100%;
+    color: white !important;
+    text-shadow: 0px 0px white; }
 
 .widget .container {
   padding: 0px !important; }
-
-@media only screen and (min-width: 600px) {
-  #account-overview .flash-points {
-    margin-bottom: 8px;
-    font-size: 28px !important; } }
-@media only screen and (min-width: 200px) {
-  #account-overview .profile-pic.bp1 {
-    -moz-border-radius: 80px !important;
-    -webkit-border-radius: 80px !important;
-    border-radius: 80px !important;
-    display: inline-block;
-    width: 130px !important;
-    height: 130px !important; } }
 
 /*# sourceMappingURL=account_overview.css.map */

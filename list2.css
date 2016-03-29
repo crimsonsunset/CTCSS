@@ -75,13 +75,13 @@ br {
       -webkit-box-orient: vertical;
       overflow: hidden; }
   #activity-list .points-container {
-    max-width: 100%;
-    width: 300px;
-    margin-left: 5px;
+    background-color: yellow;
+    width: 280px !important;
     color: white !important;
     line-height: 24px;
     text-align: left;
-    float: right; }
+    float: left;
+    margin-left: 10px; }
     #activity-list .points-container .points_without-bonus {
       color: #b0b0b0;
       text-decoration: line-through;
@@ -90,11 +90,13 @@ br {
       margin-bottom: -4px;
       display: none; }
   #activity-list .point-value {
-    margin-left: 12px;
     font-family: "Avenir Italic";
     text-transform: lowercase;
-    color: #f79c1d !important;
+    color: black !important;
+    text-align: center;
     font-size: 24px !important; }
+    #activity-list .point-value:before {
+      content: "get "; }
     #activity-list .point-value.completed:before {
       content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Complete-Transparent.png);
       position: relative;
