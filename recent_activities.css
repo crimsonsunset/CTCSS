@@ -20,7 +20,7 @@ body {
   border-bottom: 0px solid #000 !important;
   color: #171717 !important; }
   .header h3 {
-    margin: -7px 0 0px -10px;
+    margin: -7px 0 0px -10px !important;
     font-size: 14px;
     line-height: 15px;
     text-transform: uppercase;
