@@ -12,7 +12,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
   font-family: "Avenir Italic";
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix");
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix") format("eot"), url("Fonts/40341557-de09-46fe-a2df-9ca52c67f017.woff2") format("woff2"), url("Fonts/e3efde60-79f0-4ad5-92b0-88c37631738e.woff") format("woff"), url("Fonts/1fd2cf5d-f27c-431e-aac2-fd959b2f9ca4.ttf") format("truetype"), url("Fonts/7ef1049b-c721-43a7-be32-fad3c24a248d.svg#7ef1049b-c721-43a7-be32-fad3c24a248d") format("svg"); }
-html {
+html, body {
   background-color: #171717; }
 
 @media (min-width: 400px) {
@@ -33,7 +33,6 @@ html {
     float: left; }
 
   #reward-list .rewards .reward:nth-child(3n+1) {
-    margin: 10px 4px 0px 4px !important;
     clear: inherit !important; }
 
   #reward-list .rewards .reward:nth-child(3n+2) {
@@ -64,7 +63,7 @@ html {
       #reward-list .rewards .reward:nth-child(4n+1) .content .row .points {
         display: none; }
       #reward-list .rewards .reward:nth-child(4n+1) .content .title {
-        color: white !important;
+        color: black !important;
         height: 296px;
         display: block;
         margin-bottom: 4px;
@@ -90,13 +89,15 @@ html {
 .widget .header {
   display: none; }
 .widget .container {
-  padding: 0px 0px 0px 5px !important;
+  padding: 0px 0px 0px 0px !important;
   background-color: #171717 !important; }
 
 #reward-list {
-  color: white !important; }
+  color: white !important;
+  height: 310px !important;
+  overflow: hidden; }
   #reward-list .rewards {
-    width: 100% !important; }
+    width: 310px !important; }
     #reward-list .rewards .reward .content {
       padding: 0px !important;
       width: 0px !important; }
@@ -145,19 +146,15 @@ html {
     background-color: white !important; }
 
 @media only screen and (max-width: 634px) {
-  #reward-list .rewards {
-    width: 320px !important; }
-
   #reward-list .rewards .reward:nth-child(3n+1) .content .row .locked:before {
     margin-top: -388px !important; } }
 @media only screen and (max-width: 800px) {
   #reward-list .rewards .reward:nth-child(3n+1) {
     margin: 10px 4px 0px 4px !important;
     clear: none;
-    width: 99% !important;
+    width: 304px !important;
     background-color: #171717 !important;
-    border: 0px;
-    height: 440px; }
+    border: 0px; }
     #reward-list .rewards .reward:nth-child(3n+1) img {
       width: 300px;
       height: 300px;
