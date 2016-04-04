@@ -64,7 +64,7 @@ span, p {
 
 #activity-history {
   height: 235px;
-  background-color: rgba(25, 25, 25, 0.5); }
+  background-color: white; }
   #activity-history table tbody:before {
     content: "" !important; }
   #activity-history table {
@@ -94,7 +94,7 @@ span, p {
 
 .container {
   padding: 20px 10px 10px 10px !important;
-  height: 202px;
+  height: 199px;
   overflow: auto; }
 
 .ct-header-text-color {

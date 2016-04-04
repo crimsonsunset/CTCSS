@@ -23,14 +23,14 @@ body {
 #social-connect-widget .social-net-container {
   width: 100%;
   overflow: hidden;
-  color: white;
+  color: black;
   font-family: "Avenir Demi"; }
   #social-connect-widget .social-net-container .social-net-name {
     font-size: 16px; }
 #social-connect-widget button.connect {
   font-family: "Avenir Demi";
-  color: #171717 !important;
-  background-color: white !important; }
+  color: white !important;
+  background-color: black !important; }
 #social-connect-widget .notification-container {
   margin-bottom: -20px; }
 #social-connect-widget .point-value {
