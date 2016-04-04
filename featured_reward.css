@@ -13,7 +13,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix");
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix") format("eot"), url("Fonts/40341557-de09-46fe-a2df-9ca52c67f017.woff2") format("woff2"), url("Fonts/e3efde60-79f0-4ad5-92b0-88c37631738e.woff") format("woff"), url("Fonts/1fd2cf5d-f27c-431e-aac2-fd959b2f9ca4.ttf") format("truetype"), url("Fonts/7ef1049b-c721-43a7-be32-fad3c24a248d.svg#7ef1049b-c721-43a7-be32-fad3c24a248d") format("svg"); }
 html, body {
-  background-color: #171717; }
+  background-color: white; }
 
 @media (min-width: 400px) {
   #reward-list .rewards .reward {
@@ -50,7 +50,7 @@ html, body {
   #reward-list .rewards .reward:nth-child(4n+1) {
     margin: 10px 4px 0px 4px !important;
     clear: none;
-    background-color: #171717 !important;
+    background-color: white !important;
     border: 0px !important;
     width: 0px !important; }
     #reward-list .rewards .reward:nth-child(4n+1) img {
@@ -90,7 +90,7 @@ html, body {
   display: none; }
 .widget .container {
   padding: 0px 0px 0px 0px !important;
-  background-color: #171717 !important; }
+  background-color: white !important; }
 
 #reward-list {
   color: white !important;
@@ -153,7 +153,7 @@ html, body {
     margin: 10px 4px 0px 4px !important;
     clear: none;
     width: 304px !important;
-    background-color: #171717 !important;
+    background-color: white !important;
     border: 0px; }
     #reward-list .rewards .reward:nth-child(3n+1) img {
       width: 300px;
