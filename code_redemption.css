@@ -15,142 +15,18 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 html {
   background-color: white; }
 
-@media (min-width: 400px) {
-  #reward-list .rewards .reward {
-    width: 300px !important;
-    float: left; }
+.widget .header h3 {
+  font-family: "Avenir Italic";
+  margin: 3px 0 3px -7px;
+  font-size: 20px; }
 
-  #reward-list .rewards .reward:nth-child(2n+1) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; }
+.code-redemption {
+  font-family: "Avenir Demi"; }
 
-  #reward-list .rewards .reward:nth-child(2n+2) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; } }
-@media (min-width: 600px) {
-  #reward-list .rewards .reward {
-    width: 300px !important;
-    float: left; }
+.submit-container button {
+  font-family: "Avenir Demi"; }
 
-  #reward-list .rewards .reward:nth-child(3n+1) {
-    margin: 10px 3px 0px 3px !important;
-    clear: inherit !important; }
-
-  #reward-list .rewards .reward:nth-child(3n+2) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; }
-
-  #reward-list .rewards .reward:nth-child(3n+3) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; } }
-@media (min-width: 800px) {
-  #reward-list .rewards .reward {
-    width: 302px !important;
-    float: left; }
-
-  #reward-list .rewards .reward:nth-child(4n+1) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; }
-
-  #reward-list .rewards .reward:nth-child(4n+2) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; }
-
-  #reward-list .rewards .reward:nth-child(4n+3) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; }
-
-  #reward-list .rewards .reward:nth-child(4n+4) {
-    margin: 10px 3px 0px 3px !important;
-    clear: none; } }
-ul {
-  width: 100%;
-  padding-left: 4px;
-  margin: 0 auto !important; }
-
-ul li {
-  width: 300px;
-  height: 250px;
-  margin: 0px 4px 0px 4px;
-  display: inline-block; }
-
-/* stop the floating after the list */
-br {
-  clear: left; }
-
-.widget .header {
-  display: none; }
-.widget .container {
-  padding: 0px 0px 0px 5px !important; }
-
-#reward-list {
-  font-family: TradeGothicBold !important;
-  color: white !important; }
-  #reward-list .rewards {
-    width: 100% !important; }
-    #reward-list .rewards .reward .content {
-      padding: 0px !important;
-      margin-left: 2px; }
-      #reward-list .rewards .reward .content .title {
-        height: 45px;
-        margin-bottom: 4px;
-        margin-left: 10px !important;
-        color: white !important;
-        text-align: center;
-        line-height: 23px;
-        margin-right: 10px !important;
-        font-size: 23px;
-        font-family: "Avenir Demi";
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden; }
-      #reward-list .rewards .reward .content .row {
-        height: inherit !important;
-        overflow: visible !important; }
-        #reward-list .rewards .reward .content .row .locked {
-          margin-left: -7px; }
-          #reward-list .rewards .reward .content .row .locked:before {
-            content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png);
-            position: absolute;
-            margin-left: 5px;
-            margin-top: -353px;
-            opacity: 0.7; }
-        #reward-list .rewards .reward .content .row div p {
-          color: #171717;
-          font-size: 0px; }
-        #reward-list .rewards .reward .content .row .points {
-          height: 44px;
-          width: 96%; }
-          #reward-list .rewards .reward .content .row .points p {
-            margin-left: 10px;
-            font-family: "Avenir Italic";
-            text-transform: lowercase;
-            color: black !important;
-            text-align: center;
-            font-size: 24px !important;
-            background-color: #f8c21f; }
-        #reward-list .rewards .reward .content .row .quantity p.sold-out:before {
-          content: url(https://cdn.rawgit.com/crimsonsunset/CTCSS/master/Locked-Transparent.png);
-          position: absolute;
-          margin-left: -299px;
-          margin-top: -354px;
-          opacity: 0.8; }
-  #reward-list .reward {
-    padding: 0px !important;
-    padding-left: 4px;
-    height: 395px;
-    background-color: black !important; }
-
-/*# sourceMappingURL=list2.css.map */
-@media only screen and (min-width: 937px) {
-  #reward-list .rewards {
-    width: 1000px !important; } }
-@media only screen and (max-width: 936px) {
-  #reward-list .rewards {
-    width: 628px !important; } }
-@media only screen and (max-width: 634px) {
-  #reward-list .rewards {
-    width: 320px !important; } }
+p {
+  font-size: 16px; }
 
 /*# sourceMappingURL=code_redemption.css.map */
