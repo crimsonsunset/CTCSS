@@ -65,10 +65,13 @@ span, p {
 #activity-history {
   height: 235px;
   background-color: white; }
+  #activity-history .btn.show-more {
+    display: none; }
   #activity-history table tbody:before {
     content: "" !important; }
   #activity-history table {
     width: 98%;
+    table-layout: fixed;
     margin-top: -25px;
     overflow: hidden;
     position: relative;

@@ -27,10 +27,13 @@ html {
   padding-top: 14px;
   margin-right: 10px;
   text-transform: lowercase;
-  font-size: 21px;
+  font-size: 20px;
   font-family: "Avenir Italic"; }
 
 a.btn {
+  font-family: "Avenir Demi"; }
+
+#check-in .search-wrapper input.venue-search {
   font-family: "Avenir Demi"; }
 
 /*# sourceMappingURL=check_in.css.map */

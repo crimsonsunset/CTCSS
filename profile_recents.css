@@ -69,6 +69,7 @@ span, p {
     content: "" !important; }
   #reward-history table {
     width: 98%;
+    table-layout: fixed;
     margin-top: -25px;
     overflow: hidden;
     position: relative;
