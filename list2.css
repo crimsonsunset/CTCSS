@@ -127,7 +127,10 @@ br {
       margin-top: 33px; }
 
 /*# sourceMappingURL=list2.css.map */
-@media only screen and (max-width: 936px) {
+@media only screen and (max-width: 1010px) {
+  ul {
+    width: 930px !important; } }
+@media only screen and (max-width: 932px) {
   ul {
     width: 628px !important; } }
 @media only screen and (max-width: 634px) {
