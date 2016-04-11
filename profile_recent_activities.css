@@ -57,7 +57,9 @@ tr td:last-child {
   -webkit-border-bottom-right-radius: 10px; }
 
 span, p {
-  white-space: nowrap !important; }
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 #activity-history table th:last-child, #activity-history table td:last-child {
   height: 26px !important; }
@@ -66,7 +68,10 @@ span, p {
   height: 235px;
   background-color: white; }
   #activity-history .btn.show-more {
-    display: none; }
+    font-family: "Avenir Demi";
+    background-color: black;
+    text-align: center;
+    padding: 4px 2px 4px 2px; }
   #activity-history table tbody:before {
     content: "" !important; }
   #activity-history table {

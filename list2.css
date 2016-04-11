@@ -68,7 +68,7 @@ br {
     #activity-list .info-container .title {
       color: white !important;
       text-align: center;
-      line-height: 23px;
+      line-height: 21px;
       margin-right: 10px !important;
       font-size: 23px;
       font-family: "Avenir Demi";
@@ -96,7 +96,8 @@ br {
     text-transform: lowercase;
     color: black !important;
     text-align: center;
-    font-size: 24px !important; }
+    font-size: 24px !important;
+    line-height: 26px; }
     #activity-list .point-value:before {
       content: "get "; }
     #activity-list .point-value.completed:before {
@@ -120,7 +121,8 @@ br {
     opacity: .7; }
     #activity-list .lock-info span {
       font-size: 25px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "Avenir Italic"; }
     #activity-list .lock-info .fa-lock {
       font-size: 65px;
       width: 300px;

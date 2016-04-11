@@ -23,6 +23,9 @@ html {
 .container {
   font-family: "Avenir Demi"; }
 
+#invite-friends .explaination {
+  font-size: 16px;
+  margin-top: -7px; }
 #invite-friends .channel .details pre.link {
   margin-top: 35px; }
 #invite-friends .channel .details p {

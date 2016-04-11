@@ -57,10 +57,17 @@ tr td:last-child {
   -webkit-border-bottom-right-radius: 10px; }
 
 span, p {
-  white-space: nowrap !important; }
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 #reward-history table th:last-child, #reward-history table td:last-child {
-  height: 26px !important; }
+  height: 46px !important; }
+
+.btn.show-more {
+  font-family: "Avenir Demi";
+  background-color: black;
+  text-align: center;
+  padding: 4px 2px 4px 2px; }
 
 #reward-history {
   height: 235px;
@@ -86,7 +93,14 @@ span, p {
         font-family: "Avenir Italic";
         text-transform: uppercase; }
       #reward-history table td .title {
-        margin-left: -30px; }
+        margin-left: -30px;
+        width: 30vw;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; }
+      #reward-history table td a {
+        padding-left: 10px;
+        text-align: right; }
 
 .ct-points-color {
   color: orange !important; }

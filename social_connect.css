@@ -41,4 +41,12 @@ body {
 .fa-check-circle:before {
   content: "\f00c"; }
 
+@media only screen and (max-width: 400px) {
+  .social-net-container .button-container {
+    width: 100%;
+    padding-top: 2px; }
+
+  button.connect {
+    border: 1px solid blue !important; } }
+
 /*# sourceMappingURL=social_connect.css.map */

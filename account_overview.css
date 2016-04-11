@@ -82,24 +82,26 @@ span, p {
   #account-overview .progress-bar-container {
     padding: 5px !important;
     margin-top: 56px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 33px; }
   #account-overview .ct-progress-bar .bar > span {
     font-size: 39px;
-    color: #ff9900;
-    text-shadow: 0px 0px #ff9900; }
+    color: #ffc000;
+    text-shadow: 0px 0px #ffc000; }
   #account-overview .ct-points-color {
     color: white !important; }
   #account-overview .ct-progress-bar {
     background-color: black !important; }
+    #account-overview .ct-progress-bar .bar {
+      background: #ffc000 !important; }
   #account-overview .container {
     width: 100%;
     color: transparent !important;
-    text-shadow: 2px 1px #1c1c1c; }
+    text-shadow: 2px 2px 3px #1c1c1c; }
   #account-overview .lifetime-points {
     display: none !important; }
   #account-overview .redeemable-points {
-    font-size: 28px;
+    font-size: 27px;
     text-transform: lowercase;
     font-family: "Avenir Italic";
     color: orange !important;
@@ -130,5 +132,14 @@ span, p {
 
 .widget .container {
   padding: 0px !important; }
+
+@media only screen and (max-width: 388px) {
+  #account-overview {
+    text-align: center;
+    width: 100% !important; }
+    #account-overview .profile-pic {
+      display: none; }
+    #account-overview .progress-bar-container {
+      display: none; } }
 
 /*# sourceMappingURL=account_overview.css.map */
