@@ -92,6 +92,8 @@ span, p {
       #reward-history table td.points {
         font-family: "Avenir Italic";
         text-transform: uppercase; }
+      #reward-history table td p.points {
+        text-align: right; }
       #reward-history table td .title {
         margin-left: -30px;
         width: 30vw;
