@@ -14,6 +14,8 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
   src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix") format("eot"), url("Fonts/40341557-de09-46fe-a2df-9ca52c67f017.woff2") format("woff2"), url("Fonts/e3efde60-79f0-4ad5-92b0-88c37631738e.woff") format("woff"), url("Fonts/1fd2cf5d-f27c-431e-aac2-fd959b2f9ca4.ttf") format("truetype"), url("Fonts/7ef1049b-c721-43a7-be32-fad3c24a248d.svg#7ef1049b-c721-43a7-be32-fad3c24a248d") format("svg"); }
 body {
   background-color: transparent !important; }
+  body::-webkit-scrollbar {
+    display: none; }
 
 .header {
   background-color: transparent !important;
@@ -63,7 +65,8 @@ span, p {
 
 #activity-history {
   height: 120px;
-  width: 268px;
+  width: 271px;
+  margin: 0 auto;
   overflow: hidden; }
   #activity-history table tbody:before {
     content: "" !important; }
@@ -107,5 +110,18 @@ span, p {
 
 .date {
   padding-left: 18px !important; }
+
+#activity-history table .desktop {
+  display: block; }
+
+#activity-history table .mobile {
+  display: none; }
+
+@media (min-width: 400px) {
+  #activity-history table .desktop {
+    display: block; }
+
+  #activity-history table .mobile {
+    display: none; } }
 
 /*# sourceMappingURL=recent_activities.css.map */

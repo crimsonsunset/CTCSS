@@ -41,8 +41,7 @@ br {
 
 #activity-list {
   font-family: "Avenir Demi" !important;
-  color: white !important;
-  /* styles for '...' */ }
+  color: white !important; }
   #activity-list .activity {
     padding: 0px !important;
     height: 402px;
@@ -64,18 +63,24 @@ br {
     height: 60px;
     font-size: 16px !important; }
     #activity-list .info-container .description {
-      display: none !important; }
+      text-align: center;
+      margin-top: 2px;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis; }
     #activity-list .info-container .title {
       color: white !important;
       text-align: center;
-      line-height: 21px;
+      line-height: 25px;
       margin-right: 10px !important;
       font-size: 23px;
       font-family: "Avenir Demi";
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-top: -14px; }
   #activity-list .points-container {
     background-color: #f8c21f;
     width: 280px !important;

@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "Avenir Demi";
+  src: url("Fonts/fe4d96a8-3161-4f0c-ac51-ed6a5df15918.eot?#iefix");
+  src: url("Fonts/fe4d96a8-3161-4f0c-ac51-ed6a5df15918.eot?#iefix") format("eot"), url("Fonts/d268cd4d-987c-468a-a9bb-685df57a3892.woff2") format("woff2"), url("Fonts/add96dac-4679-4981-9390-74fd5a5bf61f.woff") format("woff"), url("Fonts/60f1dfd0-eea9-448c-84a0-e4e8d5ba7516.ttf") format("truetype"), url("Fonts/f9659813-f8c7-4548-9117-b8e02fa26641.svg#f9659813-f8c7-4548-9117-b8e02fa26641") format("svg"); }
+@font-face {
+  font-family: "Avenir Italic";
+  src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix");
+  src: url("Fonts/8d8470e6-19c9-4a41-8b46-d8451655acf7.eot?#iefix") format("eot"), url("Fonts/40341557-de09-46fe-a2df-9ca52c67f017.woff2") format("woff2"), url("Fonts/e3efde60-79f0-4ad5-92b0-88c37631738e.woff") format("woff"), url("Fonts/1fd2cf5d-f27c-431e-aac2-fd959b2f9ca4.ttf") format("truetype"), url("Fonts/7ef1049b-c721-43a7-be32-fad3c24a248d.svg#7ef1049b-c721-43a7-be32-fad3c24a248d") format("svg"); }
+.title, #marvel_subnav_wrapper {
+  display: none; }
+
+.module {
+  font-family: "Avenir Demi" !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1.0em;
+  margin: 20px; }
+
+body {
+  background: white;
+  font-family: "Avenir Demi"; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.scaleImg {
+  width: 100%;
+  height: 100%; }
+  .scaleImg.media {
+    max-width: 452px; }
+  .scaleImg.trailer {
+    max-width: 406px; }
+  .scaleImg.cap {
+    max-width: 380px; }
+  .scaleImg.dd {
+    max-width: 387px; }
+
+button {
+  border: none;
+  width: 230px;
+  height: 52px;
+  font-family: "Avenir Italic";
+  text-transform: uppercase;
+  background-color: #F5AA00;
+  color: black;
+  font-size: 22px;
+  margin-top: 10px; }
+
+h1 {
+  font-family: "Avenir Italic";
+  text-transform: uppercase; }
+
+.btn-holder {
+  margin-top: 10px;
+  width: 100%;
+  clear: both;
+  border: 0px solid red; }
+
+.steps {
+  text-align: center;
+  height: 632px;
+  background-color: black; }
+  .steps .img {
+    background: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/bkgtop.png") top center #000;
+    margin-top: -21px;
+    color: #fff;
+    height: 540px;
+    position: relative;
+    background-repeat: no-repeat; }
+    .steps .img p {
+      font-size: 27px;
+      font-style: italic; }
+    .steps .img .btn-holder {
+      padding-top: 30px; }
+  .steps .logo {
+    background: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/logo2.png");
+    height: 134px;
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    position: static !important;
+    margin: 0 auto;
+    max-width: 300px;
+    background-size: contain; }
+  .steps p span {
+    color: #F5AA00;
+    text-transform: uppercase; }
+  .steps .action-btns {
+    width: 100%;
+    border: 0px solid blue;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .steps .action-btns.todo {
+      margin-top: 70px; }
+      .steps .action-btns.todo .step {
+        margin: 0px 5% 0px 5%;
+        border: 0px solid red; }
+    .steps .action-btns .btn-cont {
+      width: 234px;
+      border: 0px solid lime;
+      margin: 0px 4% 0px 4%; }
+      .steps .action-btns .btn-cont p {
+        font-size: 18px;
+        margin: 0;
+        font-style: normal; }
+    .steps .action-btns img {
+      visibility: hidden; }
+    .steps .action-btns #step1 {
+      background: no-repeat url(https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/step1.png) top center; }
+    .steps .action-btns #step2 {
+      background: no-repeat url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/step2.png") top center; }
+    .steps .action-btns #step3 {
+      background: no-repeat url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/step3.png") top center; }
+
+.rackUp {
+  border: 0px solid red;
+  font-family: "Avenir Demi";
+  text-align: center; }
+  .rackUp .rack-content {
+    margin: 0 auto;
+    border: 0px solid orange;
+    max-width: 920px; }
+  .rackUp h1 {
+    font-family: "Avenir Italic";
+    text-transform: uppercase; }
+  .rackUp h2 {
+    margin-top: -16px;
+    font-size: 18px; }
+  .rackUp .icon-container {
+    border: 0px solid blue;
+    float: left;
+    width: 52%;
+    max-width: 450px;
+    min-width: 250px; }
+    .rackUp .icon-container ul {
+      margin-left: -35px;
+      text-align: center; }
+    .rackUp .icon-container li {
+      list-style-type: none;
+      width: 136px;
+      height: 140px;
+      display: inline-block;
+      vertical-align: top;
+      color: white; }
+  .rackUp .img-container {
+    float: left;
+    width: 47%;
+    border: 0px solid blue;
+    min-width: 436px;
+    margin-left: 10px;
+    height: 346px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .rackUp .img-container .media {
+      width: 100%;
+      height: 100%; }
+  .rackUp .btn-holder {
+    margin-top: 10px;
+    width: 100%;
+    clear: both; }
+
+.coolStuff {
+  text-align: center;
+  margin-top: 40px;
+  background-color: lime;
+  border: 0px solid blue;
+  width: 100%;
+  position: relative; }
+  .coolStuff .title-holder {
+    margin-top: 20px;
+    padding-top: 33px; }
+  .coolStuff .img-container {
+    margin: 0 auto;
+    border: 0px solid red; }
+    .coolStuff .img-container .btn-holder {
+      margin-top: 330px; }
+    .coolStuff .img-container .img {
+      background: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/coolstuff3.png") top center #000;
+      margin-top: -21px;
+      color: #fff;
+      height: 540px;
+      position: relative; }
+    .coolStuff .img-container h1 {
+      font-family: "Avenir Italic";
+      text-transform: uppercase; }
+    .coolStuff .img-container h2 {
+      margin-top: -16px;
+      font-size: 18px; }
+
+.featuredRewards {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  z-index: 1; }
+
+.featuredActivities, .featuredRewards {
+  text-align: center;
+  border: 0px solid red; }
+  .featuredActivities #imgz:before, .featuredRewards #imgz:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0%;
+    left: -50%;
+    z-index: -1;
+    background: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/bkg2.png") top center #000; }
+  .featuredActivities .paddingz, .featuredRewards .paddingz {
+    padding-top: 40px; }
+  .featuredActivities h1, .featuredRewards h1 {
+    font-family: "Avenir Italic";
+    text-transform: uppercase; }
+  .featuredActivities h2, .featuredRewards h2 {
+    margin-top: -16px;
+    font-size: 18px; }
+  .featuredActivities .feat-content, .featuredRewards .feat-content {
+    overflow: auto;
+    width: 100%;
+    border: 0px solid lime;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .featuredActivities .feat-content .body-item, .featuredRewards .feat-content .body-item {
+      float: left;
+      width: 98%; }
+      .featuredActivities .feat-content .body-item.facebook, .featuredRewards .feat-content .body-item.facebook {
+        border: 0px solid red; }
+      .featuredActivities .feat-content .body-item.trailer, .featuredRewards .feat-content .body-item.trailer {
+        border: 0px solid lime; }
+      .featuredActivities .feat-content .body-item.cap, .featuredRewards .feat-content .body-item.cap {
+        border: 0px solid lime; }
+      .featuredActivities .feat-content .body-item.dd, .featuredRewards .feat-content .body-item.dd {
+        border: 0px solid red; }
+
+@media only screen and (max-width: 925px) {
+  .rackUp {
+    border: 0px solid purple; }
+    .rackUp .icon-container, .rackUp .img-container {
+      clear: both;
+      float: none;
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      min-width: 0px; } }
+@media only screen and (max-width: 705px) {
+  .featuredActivities .feat-content, .featuredRewards .feat-content {
+    display: block !important; }
+    .featuredActivities .feat-content .body-item, .featuredRewards .feat-content .body-item {
+      float: none;
+      margin: 0 auto; }
+  .featuredActivities .trailer, .featuredActivities .dd, .featuredRewards .trailer, .featuredRewards .dd {
+    margin-top: 10px !important; }
+
+  #imgz:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50% !important;
+    left: -50%;
+    z-index: -1;
+    background: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/sellpage/bkg2.png") 0 0 repeat;
+    transform: rotate(180deg); } }
+@media only screen and (max-width: 535px) {
+  .steps {
+    height: 1042px; }
+    .steps .action-btns {
+      display: block; }
+      .steps .action-btns .btn-cont {
+        margin: 0 auto;
+        padding-bottom: 20px; }
+      .steps .action-btns.todo {
+        margin-top: 10px !important; }
+        .steps .action-btns.todo .step {
+          border: 0px solid purple;
+          width: 170px;
+          text-align: center;
+          margin: 0 auto; } }
+@media only screen and (max-width: 254px) {
+  .steps {
+    height: 1072px; } }
+
+/*# sourceMappingURL=stylez.css.map */
